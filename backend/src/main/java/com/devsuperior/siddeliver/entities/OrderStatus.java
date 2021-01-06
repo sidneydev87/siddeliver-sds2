@@ -2,5 +2,5 @@ package com.devsuperior.siddeliver.entities;
 
 public enum OrderStatus {
 
-	PENDING, DELIVERED;
+	PENDING, DELIVERED; /*PENDIND = 0, DELIVERED = 1*/
 }
