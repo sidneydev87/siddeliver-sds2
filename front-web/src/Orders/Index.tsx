@@ -24,9 +24,8 @@ function Orders() {
         .then(response => setProducts(response.data))
         .catch(() => {
             toast.warning('Erro ao listar produtos');
-        }
-
-    }, []);
+        }) 
+     }, []);
 
     const handleSelectProduct = (product: Product) => {
         const isAlreadySelected = checkIsSelected(selectedProducts, product);
