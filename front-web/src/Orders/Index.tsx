@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { toast } from 'react-toastify';
 import StepsHeader from './StepsHeader';
 import ProductsList from './ProductsList';
@@ -55,10 +56,18 @@ function Orders() {
           })
       }
 
+=======
+import './styles.css';
+
+import StepsHeader from './StepsHeader';
+
+function Orders() {
+>>>>>>> parent of e2c4350 (Search order location)
     return (
         <>
             <div className="orders-container">
             <StepsHeader />
+<<<<<<< HEAD
             <ProductsList 
             products={products}
             onSelectProduct={handleSelectProduct}
@@ -75,7 +84,14 @@ function Orders() {
         </div>
         <Footer />    
         </>  
+=======
+        </div>
+        
+
+>>>>>>> parent of e2c4350 (Search order location)
     )
+
+
 }
 
 

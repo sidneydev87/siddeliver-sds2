@@ -6,9 +6,15 @@ function Navbar() {
     return (
        <nav className="main-navbar">
          <Logo />
-            <Link to="/" className="logo-text"><strong>SID Delivery</strong></Link>
+            <Link to="/" className="logo-text">SID Delivery</Link>
        </nav> 
+
+
+
     )
+
+
 }
+
 
 export default Navbar;
